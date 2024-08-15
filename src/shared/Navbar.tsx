@@ -19,7 +19,6 @@ import SearchIcon from "@/assets/icons/SearchIcon";
 const Navbar = () => {
   return (
     <>
-      <>
         <div className="py-4">
           <div className="w-full container grid lg:grid-cols-3 grid-cols-2 justify-between items-center align-middle xl:px-0 md:px-10 px-5">
             <div className="flex-1 flex lg:justify-start md:justify-center justify-start lg:order-1 order-3 lg:col-span-1 sm:col-span-2 md:bg-black lg:bg-transparent md:rounded-full md:text-white lg:text-black py-2">
@@ -154,7 +153,6 @@ const Navbar = () => {
           </div>
         </div>
       </>
-    </>
   );
 };
 
